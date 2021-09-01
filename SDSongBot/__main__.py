@@ -11,11 +11,10 @@ pm_start_text = """
 Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
 😉 Just send me the song name you want to download.😋
      
-     eg : /song biliver
+ ◉eg : /song biliver
       
- bot made by @cgs_officials 🇱🇰
+ __bot made by @cgs_officials 🇱🇰
 """
-CGS_IMG = "https://telegra.ph/file/1dceead8d64eae2b5b8a1.jpg"
 
 @app.on_message(filters.command("start"))
 async def start(client, message):
@@ -35,6 +34,8 @@ async def start(client, message):
                 ]
             ]
         )
+CGS_IMG = "https://telegra.ph/file/1dceead8d64eae2b5b8a1.jpg"
+
     else:
         btn = None
     await message.reply(pm_start_text.format(name, user_id), reply_markup=btn)
