@@ -34,7 +34,6 @@ async def start(client, message):
                 ]
             ]
         )
-CGS_IMG = "https://telegra.ph/file/1dceead8d64eae2b5b8a1.jpg"
 
     else:
         btn = None
