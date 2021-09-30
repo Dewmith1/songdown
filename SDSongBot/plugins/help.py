@@ -12,5 +12,3 @@ def send_message(message):
   bot.send_message(message.chat.id, "**Command avalable..!**/n/n☉ /so song name "
 
 
-
-bot.polling()
