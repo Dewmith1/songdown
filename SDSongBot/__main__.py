@@ -25,8 +25,9 @@ from SDSongBot import SDSongBot as app
 from SDSongBot import LOGGER
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from pyrogram.errors import UserNotParticipant, ChatAdminRequired, UsernameNotOccupied #fsub
-from SDSongBot.plugins import
+from SDSongBot.plugins import *
 from pyrogram import idle, filters
+from SDSongBot.plugins.Dev import *
 from config import BOT_USERNAME
 
 JOIN_ASAP = " **You cant use me untill subscribe our updates channel** ☹️\n\n So Please join our updates channel by the following button and hit on the ` /start ` button again 😊"
