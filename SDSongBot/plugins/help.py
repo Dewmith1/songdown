@@ -9,6 +9,6 @@ from SDSongBot import bot
 
 @bot.message_handler(commands=["help"])
 def send_message(message):
-  bot.send_message(message.chat.id, "**Command avalable..!**/n/n☉ /so song name "
+  bot.send_message(message.chat.id, "**Command avalable..!**/n/n☉ /so song name dev @IMkashyapaa"
 
 
