@@ -40,10 +40,10 @@ FSUBB = InlineKeyboardMarkup(
 
 text = """
 Hello [{}](tg://user?id={}) 👋
-I am song download bot you can download song @cgssongdownloadbot
+I am song download bot you can download song @IMkashyapaa
 command check on click help menu button
 
-powered by @cgs_officials
+powered by @IMkashyapaa
 """
 
 @app.on_message(filters.command("start"))
@@ -64,20 +64,20 @@ async def start(client, message): #fsub start
         InlineKeyboardButton(text="help menu❓",  callback_data="help"),
         ],
     [
-        InlineKeyboardButton(text="Updates Channel✨", url="https://t.me/cgs_officials"),
+        InlineKeyboardButton(text="Contact me🌷", url="https://t.me/IMkashyapaa"),
         InlineKeyboardButton(
             text=" Support Group✨", url="https://t.me/cgs_official"
         ),
     ],
     [
-        InlineKeyboardButton(text="Add Me To Your Group 🎉", url="http://t.me/{BOT_USERNAME}?startgroup=new"),
+        InlineKeyboardButton(text="Add Me To Your Group 🎉", url="http://t.me/{BOT_USERNAME}?startgroup=true"),
     ],
 ]
         
     else:
         button = None
     await message.reply_photo(
-                    photo="https://telegra.ph/file/96b4bfc266dfc5a136260.jpg",
+                    photo="https://telegra.ph/file/73422b014dca50b1023e6.jpg",
                     reply_markup=InlineKeyboardMarkup(button),
                     caption=text.format(name, user_id))
 
